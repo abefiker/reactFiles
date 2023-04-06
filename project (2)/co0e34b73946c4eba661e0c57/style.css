@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+}
+body{
+   
+    position: absolute;
+    width: 550px;
+    height: 868px;
+    left: 664px;
+    top: 53px;
+    
+    background: #23252C;
+}
+.Containter{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 317px;
+    height: 399px;
+    left: 116px;
+    top: 361px;
+    align-items: center;
+    background: #1A1B21;
+}
+header > img{
+    position: absolute;
+    width: 317px;
+    height: 317px;
+    left: 116px;
+    top: 44px;
+
+    background: url(.png);
+    border-radius: 10px 10px 0px 0px;
+}
+.Containter > h1{
+    position: absolute;
+    width: 178.06px;
+    height: 25.81px;
+    left: 60px;
+    top: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.Containter > h3 {
+    position: absolute;
+    width: 178.06px;
+    height: 14.19px;
+    left: 60px;
+    top: 60px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #F3BF99;
+}
+.Containter > h6 {
+    position: absolute;
+    width: 228px;
+    height: 16px;
+    left: 40px;
+    top: 70px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* identical to box height, or 15px */
+
+    text-align: center;
+
+    color: #F5F5F5;
+}
+button{
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+
+    position: absolute;
+    width: 247px;
+    height: 34px;
+    left: 35px;
+    top: 120px;
+
+    /* white */
+
+    background: #FFFFFF;
+    /* gray/300 */
+
+    border: 1px solid #D1D5DB;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+.about{
+    position: absolute;
+    width: 247px;
+    height: 201px;
+    left: 151px;
+    top: 520px;
+}
+.st{
+    
+    position: absolute;
+    width: 242.71px;
+    height: 21px;
+    right: 120px;
+    top: -20.54rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #F5F5F5;
+}
+.nd{
+    position: absolute;
+    width: 242.71px;
+    height: 21px;
+    right: 120px;
+    top: -15.54rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #F5F5F5;
+
+}
+.pst {
+    position: absolute;
+    width: 247px;
+    height: 61px;
+     right: 115px;
+    top: -18.54rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+
+
+    color: #DCDCDC;
+}
+.pnd{
+    position: absolute;
+    width: 247px;
+    height: 61px;
+    right: 115px;
+    top: -13.54rem;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+
+
+    color: #DCDCDC;
+
+}
+.footer{
+    position: absolute;
+    width: 317px;
+    height: 64px;
+    left: 116px;
+    top: 760px;
+
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+.twt{
+    position: absolute;
+    width: 40px;
+    right: 65.55%;
+    left: 19px;
+    top: 10px;
+    bottom: 7.32%;
+}
+.fb{
+    position: absolute;
+    width: 40px;
+    right: 65.55%;
+    left: 80px;
+    top: 10px;
+    bottom: 7.32%;
+
+  
+}
+.insta{
+    position: absolute;
+    width: 40px;
+    right: 65.55%;
+    left: 140px;
+    top: 10px;
+    bottom: 7.32%;
+
+   
+}
+.in{
+    position: absolute;
+    width: 40px;
+    right: 65.55%;
+    left: 200px;
+    top: 10px;
+    bottom: 7.32%;
+}
+.git{
+    position: absolute;
+    width: 40px;
+    right: 65.55%;
+    left: 260px;
+    top: 10px;
+    bottom: 7.32%;
+    
+}

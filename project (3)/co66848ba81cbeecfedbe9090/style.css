@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+nav{
+     width: 100%;
+    height: 55px;
+    background: #F55A5A;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.nav--logo{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 193px;
+    top: 25px;
+    
+}
+.nav--header{
+    position: absolute;
+    width: 109px;
+    height: 16px;
+    left: 222px;
+    top: 2px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14.4608px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+
+    color: #FFFFFF;
+}
+
+.place-div{
+    display: flex;
+    margin-bottom: 36px;
+    margin-left: 39px;
+     
+}
+.main-img{
+    width: 125px;
+    height: 168px;
+    left: 40px;
+    top: 100px;
+    /* padding-right: 10px; */
+    background: url(.png);
+    border-radius: 5px;
+}
+.desc{
+    display: flex;
+    padding-top: 20px;
+    
+}
+.desc a{
+    padding-left: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918E9B;
+    padding-bottom: 0px; 
+
+}
+.desc h3{ 
+     margin: 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+     padding-left: 10px;
+     padding-bottom: 0px; 
+
+}
+.icon{
+    width: 11px;
+    height: 9.55px;
+    padding-bottom: 0px; 
+     
+}
+.text{
+    padding-left: 20px;
+}
+.text h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+    padding-top: 0px;
+}
+.text h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+
+}
+.text p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #2B283A;
+    width: 326px;
+    height: 45px;
+}
